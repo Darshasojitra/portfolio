@@ -3,30 +3,36 @@
 import { motion } from "framer-motion";
 
 const experiences = [
-    {
-        company: "Logic Loop",
-        role: "Full Stack Developer",
-        period: "Sep 2024 – Present",
+       {
+        company: "MindstormSoft",
+        role: "MERN Stack Intern",
+        period: "Jan 2026 – Present",
         description: "Built proprietary low-code platforms and e-commerce solutions. Extended Solid platform with automation modules for Bond Cancellation.",
     },
-    {
-        company: "Neosoft",
-        role: "Full Stack Developer",
-        period: "June 2024 – Aug 2024",
-        description: "Developed Resume Builder using micro-frontend architecture. Integrated independent React micro-apps with Node.js backend.",
-    },
-    {
-        company: "Monocept (Max Life Insurance)",
-        role: "Senior Full Stack Developer",
-        period: "Oct 2021 – May 2024",
-        description: "Led development of Mpro insurance platform. Migrated modules to microservices and delivered critical operational features.",
-    },
-    {
-        company: "Ikshan",
-        role: "Full Stack Developer",
-        period: "Sep 2020 – Aug 2021",
-        description: "Built multiple client applications from scratch including Jibra and Green Aggregation. Designed UI and integrated full-stack authentication.",
-    },
+    // {
+    //     company: "Logic Loop",
+    //     role: "Full Stack Developer",
+    //     period: "Sep 2024 – Present",
+    //     description: "Built proprietary low-code platforms and e-commerce solutions. Extended Solid platform with automation modules for Bond Cancellation.",
+    // },
+    // {
+    //     company: "Neosoft",
+    //     role: "Full Stack Developer",
+    //     period: "June 2024 – Aug 2024",
+    //     description: "Developed Resume Builder using micro-frontend architecture. Integrated independent React micro-apps with Node.js backend.",
+    // },
+    // {
+    //     company: "Monocept (Max Life Insurance)",
+    //     role: "Senior Full Stack Developer",
+    //     period: "Oct 2021 – May 2024",
+    //     description: "Led development of Mpro insurance platform. Migrated modules to microservices and delivered critical operational features.",
+    // },
+    // {
+    //     company: "Ikshan",
+    //     role: "Full Stack Developer",
+    //     period: "Sep 2020 – Aug 2021",
+    //     description: "Built multiple client applications from scratch including Jibra and Green Aggregation. Designed UI and integrated full-stack authentication.",
+    // },
 ];
 
 export default function Experience() {
