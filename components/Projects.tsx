@@ -4,34 +4,75 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const projects = [
+    // {
+    //     title: "Solid Starters",
+    //     category: "Low-Code Platform",
+    //     description: "A proprietary low-code platform enabling creation of CMS-driven websites through GUI-based model and field creation.",
+    //     tech: "Next.js, Nest.js, MongoDB",
+    //     image: "/projects/solid-starters.png"
+    // },
+    // {
+    //     // title: "Radix E-Commerce",
+    //     title: "TheArtCraft E-Commerce",
+    //     link:"https://theartcraft.netlify.app/",
+    //     category: "Dynamic Platform",
+    //     description: "Complete e-commerce platform with dynamic CMS-driven product management and custom admin panels.",
+    //     tech: "React, Node.js, Microservices",
+    //     image: "/projects/radix.png"
+    // },
+    // {
+    //     title: "Bond Cancellation",
+    //     category: "Automation System",
+    //     description: "Business automation for import-export workflows, featuring multi-step processes and financial logic.",
+    //     tech: "React, Subscription Engine",
+    //     image: "/projects/bond-cancellation.png"
+    // },
+    // {
+    //     title: "Max Life - Mpro",
+    //     category: "Insurance Tech",
+    //     description: "Large-scale operations platform. Led two teams, migrated to microservices, and delivered 10+ major upgrades.",
+    //     tech: "Node.js, Microservices",
+    //     image: "/projects/max-life.png"
+    // },
+
+    const projects = [
     {
-        title: "Solid Starters",
-        category: "Low-Code Platform",
-        description: "A proprietary low-code platform enabling creation of CMS-driven websites through GUI-based model and field creation.",
-        tech: "Next.js, Nest.js, MongoDB",
-        image: "/projects/solid-starters.png"
+        title: "Task Management System",
+        category: "Full Stack Web App",
+        description: "CRUD-based task manager using Node.js, Express, and MongoDB.",
+        tech: "Node.js, Express, MongoDB, React",
+        image: "/projects/solid-starters.png", // keep old image
+        github: "https://github.com/Darshasojitra/simple-todo",
+        live: "https://simple-todo-production-e10e.up.railway.app/"
     },
     {
-        title: "Radix E-Commerce",
-        category: "Dynamic Platform",
-        description: "Complete e-commerce platform with dynamic CMS-driven product management and custom admin panels.",
-        tech: "React, Node.js, Microservices",
-        image: "/projects/radix.png"
+        title: "Todo App",
+        category: "Frontend App",
+        description: "Simple todo app with add, delete and update features.",
+        tech: "React, JavaScript",
+        image: "/projects/radix.png",
+        github: "https://github.com/Darshasojitra/mern-todo-2025",
+        live: "https://mern-todo-2025-1.onrender.com/"
     },
     {
-        title: "Bond Cancellation",
-        category: "Automation System",
-        description: "Business automation for import-export workflows, featuring multi-step processes and financial logic.",
-        tech: "React, Subscription Engine",
-        image: "/projects/bond-cancellation.png"
+        title: "Portfolio Website",
+        category: "Personal Project",
+        description: "Responsive portfolio built with Next.js and Tailwind CSS.",
+        tech: "Next.js, Tailwind",
+        image: "/projects/bond-cancellation.png",
+        github: "https://github.com/Darshasojitra/portfolio",
+        live: "https://Darshans-portfolio.vercel.app"
     },
     {
-        title: "Max Life - Mpro",
-        category: "Insurance Tech",
-        description: "Large-scale operations platform. Led two teams, migrated to microservices, and delivered 10+ major upgrades.",
-        tech: "Node.js, Microservices",
-        image: "/projects/max-life.png"
-    },
+        title: "Task API",
+        category: "Backend Project",
+        description: "REST API for managing tasks with MongoDB.",
+        tech: "Node.js, Express, MongoDB",
+        image: "/projects/max-life.png",
+        github: "https://github.com/Darshasojitra/task-api",
+        live: "https://bubblegum-phoenix.netlify.app/"
+    }
+];
 ];
 
 export default function Projects() {
