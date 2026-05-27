@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const projects = [
+// const projects = [
     // {
     //     title: "Solid Starters",
     //     category: "Low-Code Platform",
@@ -34,8 +34,18 @@ const projects = [
     //     tech: "Node.js, Microservices",
     //     image: "/projects/max-life.png"
     // },
+    //];
 
     const projects = [
+         {
+        // title: "Radix E-Commerce",
+        title: "TheArtCraft E-Commerce",
+        link:"https://theartcraft.netlify.app/",
+        category: "Dynamic Platform",
+        description: "Complete e-commerce platform with dynamic CMS-driven product management and custom admin panels.",
+        tech: "React, Node.js, Microservices",
+        image: "/projects/radix.png"
+    },
     {
         title: "Task Management System",
         category: "Full Stack Web App",
@@ -72,7 +82,7 @@ const projects = [
         github: "https://github.com/Darshasojitra/task-api",
         live: "https://bubblegum-phoenix.netlify.app/"
     }
-];
+
 ];
 
 export default function Projects() {
@@ -120,6 +130,27 @@ export default function Projects() {
                                 </div>
                                 <h3 className="text-4xl font-bold text-white mb-3 drop-shadow-md">{project.title}</h3>
                                 <p className="text-gray-200 text-lg leading-relaxed drop-shadow-md">{project.description}</p>
+                                <div className="flex gap-4 mt-4">
+    {project.github && (
+        <a
+            href={project.github}
+            target="_blank"
+            className="px-4 py-2 text-sm bg-white text-black rounded-md font-medium hover:bg-gray-300 transition"
+        >
+            GitHub
+        </a>
+    )}
+
+    {project.live && (
+        <a
+            href={project.live}
+            target="_blank"
+            className="px-4 py-2 text-sm border border-white text-white rounded-md font-medium hover:bg-white hover:text-black transition"
+        >
+            Live Demo
+        </a>
+    )}
+</div>
                             </div>
                         </motion.div>
                     ))}
