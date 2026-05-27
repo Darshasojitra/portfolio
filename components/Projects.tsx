@@ -40,7 +40,7 @@ import Image from "next/image";
          {
         // title: "Radix E-Commerce",
         title: "TheArtCraft E-Commerce",
-        link:"https://theartcraft.netlify.app/",
+        live:"https://theartcraft.netlify.app/",
         category: "Dynamic Platform",
         description: "Complete e-commerce platform with dynamic CMS-driven product management and custom admin panels.",
         tech: "React, Node.js, Microservices",
